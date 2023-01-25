@@ -1,0 +1,231 @@
+@import url('https://fonts.googleapis.com/css2?family=Prata&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;1,700&family=Prata&display=swap');
+
+body{
+    margin: 0;
+    font-family: 'Montserrat';
+    background-color: #c1cddd ;
+}
+
+.main-section{
+    padding: 20px;
+}
+
+.image-container{
+    width: 100%;
+    height: 500px;
+    background-image:url('https://images.unsplash.com/photo-1526481280693-3bfa7568e0f3?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1742&q=80');
+    background-size:contain;
+    background-repeat: no-repeat;
+}
+
+.image-sensoji{
+    width: 100%;
+    height: 500px;
+    background-image:url('https://images.unsplash.com/photo-1580167227251-be70f01b0c51?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1740&q=80');
+    background-size:contain;
+    background-repeat: no-repeat;
+}
+
+.image-hamarikyu{
+    width: 100%;
+    height: 500px;
+    background-image:url('https://images.unsplash.com/photo-1613712620530-c9f7a97e2964?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1740&q=80');
+    background-size:contain;
+    background-repeat: no-repeat;
+}
+
+.image-roppongi{
+    width: 100%;
+    height: 500px;
+    background-image:url('https://images.unsplash.com/photo-1604928141064-207cea6f571f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1828&q=80');
+    background-size:contain;
+    background-repeat: no-repeat;
+}
+
+.image-hiejinja{
+    width: 100%;
+    height: 500px;
+    background-image:url('https://images.unsplash.com/photo-1585915720741-a73fbf0a8095?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1740&q=80');
+    background-size:contain;
+    background-repeat: no-repeat;
+}
+
+.image-akihabara{
+    width: 100%;
+    height: 500px;
+    background-image:url('https://images.unsplash.com/photo-1613488330046-00cad99a81e1?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1596&q=80');
+    background-size:contain;
+    background-repeat: no-repeat;
+}
+
+.image-shibuya{
+    width: 100%;
+    height: 500px;
+    background-image:url('https://images.unsplash.com/photo-1547448526-5e9d57fa28f7?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1740&q=80');
+    background-size:contain;
+    background-repeat: no-repeat;
+}
+
+h1{
+    font-family: 'Prata';
+    font-size: 64px;
+    font-weight: 400;
+}
+
+h3{
+    font-family: 'Prata';
+    font-size: 24px;
+    font-weight: 400;
+    margin-top: 0px;
+}
+
+h1, h3{
+    margin-bottom: 0px;
+}
+
+.author{
+    font-weight: 600;
+    font-style: italic;
+    margin-left: 20px;
+}
+
+h6 {
+    padding: 22px;
+    margin-bottom: 0;
+    margin-top: 56px;
+    color: rgb(255, 255, 255);
+    border-radius: 6px;
+    background-image: linear-gradient(90deg, #3d595b, #c1cddd);
+    font-size: 1rem;
+}
+
+.sensoji{
+    padding: 22px;
+    margin-bottom: 0;
+    margin-top: 56px;
+    color: rgb(255, 255, 255);
+    border-radius: 6px;
+    background-image: linear-gradient(90deg, #993130, #acb4b6);
+    font-size: 1rem;
+}
+
+.hamarikyu{
+    padding: 22px;
+    margin-bottom: 0;
+    margin-top: 56px;
+    color: rgb(255, 255, 255);
+    border-radius: 6px;
+    background-image: linear-gradient(90deg, #884c33, #8eb848);
+    font-size: 1rem;
+}
+
+.roppongi{
+    padding: 22px;
+    margin-bottom: 0;
+    margin-top: 56px;
+    color: rgb(255, 255, 255);
+    border-radius: 6px;
+    background-image: linear-gradient(90deg, #012561, #efa774);
+    font-size: 1rem;
+}
+
+.hiejinja{
+    padding: 22px;
+    margin-bottom: 0;
+    margin-top: 56px;
+    color: rgb(255, 255, 255);
+    border-radius: 6px;
+    background-image: linear-gradient(90deg, #921708, #fd8667);
+    font-size: 1rem;
+}
+
+.akihabara{
+    padding: 22px;
+    margin-bottom: 0;
+    margin-top: 56px;
+    color: rgb(255, 255, 255);
+    border-radius: 6px;
+    background-image: linear-gradient(90deg, #056da3, #fe622d);
+    font-size: 1rem;
+}
+
+.shibuya{
+    padding: 22px;
+    margin-bottom: 0;
+    margin-top: 56px;
+    color: rgb(255, 255, 255);
+    border-radius: 6px;
+    background-image: linear-gradient(90deg, #645f65, #fde2fd);
+    font-size: 1rem;
+}
+
+.localita{
+    padding: 10px;
+}
+
+.list{
+    padding-bottom: 6px;
+    padding-left: 22px;
+    border-bottom: 1px solid #dfdfdf;
+}
+
+.footer{
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: black;
+    color: whitesmoke;
+    padding: 16px;
+    font-size: 1.2rem;
+
+}
+
+.footer > #homepage{
+    color: white;
+    text-decoration: none;
+    display: inline-block;
+    font-weight: 600;
+}
+
+a:link{
+    text-decoration: none;
+    display: inline-block;
+    color: #3d595b;
+}
+
+#sensoji > a:visited {
+    text-decoration: none;
+    color: #993130;
+    display: inline-block;
+}
+
+#hamarikyu > a:visited {
+    text-decoration: none;
+    color: #884c33;
+    display: inline-block;
+}
+
+#roppongi > a:visited {
+    text-decoration: none;
+    color: #012561;
+    display: inline-block;
+}
+
+#hiejinja > a:visited {
+    text-decoration: none;
+    color: #921708;
+    display: inline-block;
+}
+
+#akihabara > a:visited {
+    text-decoration: none;
+    color: #056da3;
+    display: inline-block;
+}
+
+#shibuya > a:visited {
+    text-decoration: none;
+    color: #645f65;
+    display: inline-block;
+}
